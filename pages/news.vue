@@ -7,7 +7,6 @@
         <v-flex xs12 pb-3 sm6 offset-sm3 v-for="(article, index) in articles" :key="index">
           <v-card>
             <img :src="article.urlToImage" width="100%" height="200px">
-
             <v-card-title primary-title>
               <div>
                 <div class="headline">{{article.title}}</div>
